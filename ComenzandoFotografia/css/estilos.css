@@ -1,0 +1,159 @@
+body {
+	margin: 20px;
+	background-color: #02010a;
+
+	font-family: 'Dancing Script', cursive;
+}
+
+img {
+	box-shadow: 2px 2px;
+	background-color: #02010a;
+}
+
+#contenido {
+	margin: 0;
+	padding: 0;
+	width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#contenido div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
+}
+
+.cabecera {
+	display: flex;
+	flex-direction: row;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0;
+	color: white;
+}
+
+.titulo h1 {
+	float: left;
+	text-align: left;
+	text-shadow: 2px 0 2px #02010a;
+}
+
+.menu_principal {
+	float: right;
+}
+
+.menu_principal nav ul {
+  list-style: none;
+	width: 1%;
+	float: right;
+}
+
+
+.menu_principal nav li a {
+	color: white;
+	padding: .5em 1em;
+	display: block;
+
+}
+
+@media screen and (min-width: 480px) {
+	 nav ul {
+		 display: flex;
+		 flex-direction: row;
+	 }
+ }
+
+
+.imgPrincipal {
+	display: flex;
+	flex-direction: row;
+	background-color: #82c3a6;
+}
+
+.valorimgPrincipal {
+	margin: auto;
+	width: 50%;
+	max-width: 100%;
+}
+
+.imgSecundaria  {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	background-color: #d5c75f;
+	border: 1px;
+}
+
+.imgsec1 {
+	float: left;
+}
+
+.valorimgSec1 {
+	width: 60%;
+}
+
+.imgsec2 {
+	float: right;
+}
+
+.valorimgSec2 {
+	width: 90%;
+}
+
+.imgSecuencia  {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	/* flex-direction: row; */
+	flex-flow: row wrap;
+	background-color: #d5c75f;
+	border: 1px;
+	padding: 1px;
+
+}
+
+
+.imgsec img {
+	margin: auto;
+	width: 50%;
+	max-width: 100%;
+}
+
+@media (min-width: 800px) {
+	.primero {
+	width: 50%;
+	}
+
+	.segundo {
+	width: 50%;
+	}
+}
+
+.piePagina {
+	display: flex;
+	flex-direction: row;
+
+	background-color: #C6d5c5;
+	border-radius: 0 0 10px 10px;
+}
+
+.piePagina div {
+	text-align: center;
+	padding: 1px;
+	margin-left: auto;
+	width: 25%;
+}
+
+.piePagina h3 {
+	text-align: left;
+	line-height: 1em;
+}
+
+#correo {
+	text-decoration-line: underline;
+}
+
+.iconos {
+	width: 12%;
+}
